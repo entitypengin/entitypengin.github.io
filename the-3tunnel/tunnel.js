@@ -8,7 +8,7 @@ function pixiv() {
     } else {
         window.open('https://' + sitedata.value + '/' + iddata.value + '-' + numdata.value + '.' + filedata.value, '_blank');
     }
-  }
+}
   
 function go() {
     let proxydata = document.getElementById('proxyname');
