@@ -3,6 +3,14 @@
     <head>
         <link rel="stylesheet" href="/sample.css" type="text/css">
         <script>
+            function proxy() {
+                let proxydata = document.getElementById('proxyname');
+                let urldata = document.getElementById('url');
+                let searchdata = document.getElementById('search');
+
+                window.open('https://' + proxydata.value + '/proxify.php?proxy=' + btoa(proxydata.value) + '&site=' + btoa(urldata.value), '_blank');
+            }
+
             function pixiv() {
                 let sitedata = document.getElementById('site');
                 let iddata = document.getElementById('id');
@@ -12,17 +20,6 @@
                     window.open('https://' + sitedata.value + '/' + iddata.value + '.' + filedata.value, '_blank');
                 } else {
                     window.open('https://' + sitedata.value + '/' + iddata.value + '-' + numdata.value + '.' + filedata.value, '_blank');
-                }
-            }
-            
-            function go() {
-                let proxydata = document.getElementById('proxyname');
-                let urldata = document.getElementById('url');
-                let searchdata = document.getElementById('search');
-                if (urldata.value != "") {
-                    window.open('https://' + proxydata.value + '/proxify.php?proxy=' + btoa(proxydata.value) + '&site=' + btoa(urldata.value), '_blank');
-                } else {
-                    window.open('https://' + proxydata.value + '/proxify.php?proxy=' + btoa(proxydata.value) + '&site=' + btoa('https://search.brave.com/search?q=' + encodeURI(search.value)), '_blank');
                 }
             }
         </script>
@@ -59,7 +56,7 @@
                 <input type="text" id="search" size="40" value="">
             </div>
             <div>
-                <button onClick="go();">Go</button>
+                <button onClick="proxy();">Go</button>
             </div>
             <div>
                 Site:
