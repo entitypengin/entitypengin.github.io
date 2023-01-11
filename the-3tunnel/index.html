@@ -2,49 +2,50 @@
 <html>
     <head>
         <link rel="stylesheet" href="/sample.css" type="text/css">
-        <script>
-            function proxy() {
-                let proxydata = document.getElementById('proxyname');
-                let urldata = document.getElementById('url');
-                let searchdata = document.getElementById('search');
-
-                window.open('https://' + proxydata.value + '/proxify.php?proxy=' + btoa(proxydata.value) + '&site=' + btoa(urldata.value), '_blank');
-            }
-
-            function pixiv() {
-                let sitedata = document.getElementById('site');
-                let iddata = document.getElementById('id');
-                let numdata = document.getElementById('num');
-                let filedata = document.getElementById('file');
-                if (numdata.value == "") {
-                    window.open('https://' + sitedata.value + '/' + iddata.value + '.' + filedata.value, '_blank');
-                } else {
-                    window.open('https://' + sitedata.value + '/' + iddata.value + '-' + numdata.value + '.' + filedata.value, '_blank');
-                }
-            }
-        </script>
     </head>
     <body>
         <h1>
             <p class="title">The -3 Tunnel</p>
         </h1>
         <h2>
+            <script>
+                function proxy() {
+                    let proxydata = document.getElementById('proxyname');
+                    let urldata = document.getElementById('url');
+                    let searchdata = document.getElementById('search');
+    
+                    window.open('https://' + proxydata.value + '/proxify.php?proxy=' + btoa(proxydata.value) + '&site=' + btoa(urldata.value), '_blank');
+                }
+    
+                function pixiv() {
+                    let sitedata = document.getElementById('site');
+                    let iddata = document.getElementById('id');
+                    let numdata = document.getElementById('num');
+                    let filedata = document.getElementById('file');
+                    if (numdata.value == "") {
+                        window.open('https://' + sitedata.value + '/' + iddata.value + '.' + filedata.value, '_blank');
+                    } else {
+                        window.open('https://' + sitedata.value + '/' + iddata.value + '-' + numdata.value + '.' + filedata.value, '_blank');
+                    }
+                }
+            </script>    
             <div>
                 Proxy:
                 <select id="proxyname">
+                    <option>sitenable.com</option>
+                    <option>sitenable.info</option>
+                    <option>sitenable.top</option>
+                    <option>sitenable.pw</option>
+                    <option>sitenable.co</option>
+                    <option>sitenable.in</option>
+                    <option>sitenable.me</option>
+                    <option>sitenable.ch</option>
+                    <option>sitenable.asia</option>
+                    <option>sitenable.org</option>
+                    <option>siteget.net</option>
                     <option>filesdownloader.com</option>
                     <option>freeanimesonline.com</option>
                     <option>freeproxy.io</option>
-                    <option>siteget.net</option>
-                    <option>sitenable.asia</option>
-                    <option>sitenable.ch</option>
-                    <option>sitenable.co</option>
-                    <option>sitenable.in</option>
-                    <option>sitenable.info</option>
-                    <option>sitenable.me</option>
-                    <option>sitenable.org</option>
-                    <option>sitenable.pw</option>
-                    <option>sitenable.top</option>
                 </select>
             </div>
             <div>
