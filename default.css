@@ -1,0 +1,15 @@
+@charset "utf-8";
+p.title {
+    font-family: system-ui;
+    font-size: 150%;
+}
+body {
+    text-align: center;
+    font-family: system-ui;
+    font-size: 100%;
+    background-color: black;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 500px;
+}
