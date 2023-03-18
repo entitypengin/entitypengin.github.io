@@ -1,7 +1,24 @@
 @charset "utf-8";
+header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    align-items: center;
+    position: fixed;
+}
 p.title {
     font-family: system-ui;
     font-size: 150%;
+}
+a:link {
+    color: #00AA00;
+    text-decoration: underline;
+}
+   
+a:visited {
+    color: #AAAA00;
+    text-decoration: underline;
 }
 body {
     text-align: center;
