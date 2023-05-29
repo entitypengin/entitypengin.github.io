@@ -7,6 +7,9 @@ header {
     align-items: center;
     position: fixed;
 }
+hr {
+    color: white;
+}
 p.title {
     font-family: system-ui;
     font-size: 150%;
@@ -15,7 +18,6 @@ a:link {
     color: #00AA00;
     text-decoration: underline;
 }
-   
 a:visited {
     color: #AAAA00;
     text-decoration: underline;
