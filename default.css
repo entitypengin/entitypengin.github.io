@@ -30,7 +30,7 @@ a:active {
     color: #A0A;
     text-decoration: underline;
 }
-a.top:link, :visited {
+a.top:link,a.top:visited {
     color: white;
     text-decoration: none;
 }
