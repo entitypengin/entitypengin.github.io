@@ -15,11 +15,31 @@ hr {
     color: white;
 }
 a:link {
-    color: #00AA00;
+    color: #0A0;
+    text-decoration: underline;
+}
+a:hover {
+    color: #AA0;
     text-decoration: underline;
 }
 a:visited {
-    color: #AAAA00;
+    color: #A00;
+    text-decoration: underline;
+}
+a:active {
+    color: #A0A;
+    text-decoration: underline;
+}
+a.top:link, :visited {
+    color: white;
+    text-decoration: none;
+}
+a.top:hover {
+    color: #AAA;
+    text-decoration: underline;
+}
+a.top:active {
+    color: #555;
     text-decoration: underline;
 }
 body {
