@@ -7,12 +7,12 @@ header {
     align-items: center;
     position: fixed;
 }
-hr {
-    color: white;
-}
 p.title {
     font-family: system-ui;
     font-size: 150%;
+}
+hr {
+    color: white;
 }
 a:link {
     color: #00AA00;
@@ -31,4 +31,11 @@ body {
     width: 80%;
     margin: 0 auto;
     max-width: 500px;
+}
+#title {
+    font-family: system-ui;
+    font-size: 150%;
+}
+#texts {
+    text-align: left;
 }
