@@ -56,7 +56,11 @@ body {
     font-family: system-ui;
     font-size: 150%;
 }
+#send {
+    text-align: left;
+    font-size: 50%;
+}
 #texts {
     text-align: left;
-    font-size: 75%;
+    font-size: 50%;
 }
