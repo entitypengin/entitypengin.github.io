@@ -62,14 +62,18 @@ body {
 }
 textarea {
     font-family: system-ui;
-    border-bottom: 2px solid #0AA;
+    border: none;
+    border-bottom: 2px solid #AAA;
+    padding: 0;
 }
 textarea:focus {
-    border-bottom: 2px solid #00A;
+    border-bottom: 2px solid #0AA;
     outline: 0;
 }
 input {
     font-family: system-ui;
+    padding: 0;
+    border: none;
 }
 input[type="text"] {
     border-bottom: 2px solid #AAA;
