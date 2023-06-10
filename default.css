@@ -60,6 +60,12 @@ body {
     text-align: left;
     font-size: 50%;
 }
+textarea {
+    font-family: system-ui;
+}
+input {
+    font-family: system-ui;
+}
 #texts {
     text-align: left;
     font-size: 50%;
