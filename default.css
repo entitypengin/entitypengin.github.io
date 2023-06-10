@@ -72,8 +72,12 @@ textarea {
 ::placeholder {
     color: #AAA;
 }
-textarea:focus {
+textarea:hover {
     border: 2px solid #0AA;
+    outline: 0;
+}
+textarea:focus {
+    border: 2px solid #00A;
     outline: 0;
 }
 input {
@@ -89,8 +93,11 @@ input {
 input[type="text"] {
     border-bottom: 2px solid #AAA;
 }
-input:focus[type="text"] {
+input[type="text"]:hover {
     border-bottom: 2px solid #0AA;
+}
+input[type="text"]:focus {
+    border-bottom: 2px solid #00A;
     outline: 0;
 }
 #button {
