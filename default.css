@@ -62,18 +62,29 @@ body {
 }
 textarea {
     font-family: system-ui;
-    border: none;
-    border-bottom: 2px solid #AAA;
+    border: 2px solid #AAA;
     padding: 0;
+    background-color: black;
+    color: white;
+    resize: vertical;
+    width: 500px;
+}
+::placeholder {
+    color: #AAA;
 }
 textarea:focus {
-    border-bottom: 2px solid #0AA;
+    border: 2px solid #0AA;
     outline: 0;
 }
 input {
     font-family: system-ui;
     padding: 0;
     border: none;
+    background-color: black;
+    color: white;
+}
+::placeholder {
+    color: #AAA;
 }
 input[type="text"] {
     border-bottom: 2px solid #AAA;
