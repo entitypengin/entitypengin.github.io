@@ -97,7 +97,7 @@ input[type="text"]:hover {
     border-bottom: 2px solid #0AA;
 }
 input[type="text"]:focus {
-    border-bottom: 2px solid #A0A;
+    border-bottom: 2px solid #AA0;
     outline: 0;
 }
 #button {
@@ -110,11 +110,11 @@ input[type="button"] {
 }
 input[type="button"]:hover {
     color: #0AA;
-    border: 2px solid #0AA;
+    border-bottom: 2px solid #0AA;
 }
 input[type="button"]:active {
     color: #AA0;
-    border: 2px solid #AA0;
+    border-bottom: 2px solid #AA0;
 }
 #texts {
     text-align: left;
