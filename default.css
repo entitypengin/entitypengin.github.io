@@ -72,10 +72,10 @@ input {
     font-family: system-ui;
 }
 input [type="text"] {
-    border: #0AA;
+    border: 2px solid #FFF;
 }
 input:focus [type="text"] {
-    border: #00A;
+    border: 2px solid #AAA;
     outline: 0;
 }
 #texts {
