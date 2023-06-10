@@ -62,9 +62,21 @@ body {
 }
 textarea {
     font-family: system-ui;
+    border: #0AA;
+}
+textarea:focus {
+    border: #00A;
+    outline: 0;
 }
 input {
     font-family: system-ui;
+}
+input [type="text"] {
+    border: #0AA;
+}
+input:focus [type="text"] {
+    border: #00A;
+    outline: 0;
 }
 #texts {
     text-align: left;
