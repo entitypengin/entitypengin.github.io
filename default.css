@@ -100,9 +100,6 @@ input[type="text"]:focus {
     border-bottom: 2px solid #AA0;
     outline: 0;
 }
-#button {
-    text-align: right;
-}
 input[type="button"] {
     color: #AAA;
     border: none;
@@ -115,6 +112,9 @@ input[type="button"]:hover {
 input[type="button"]:active {
     color: #AA0;
     border-bottom: 2px solid #AA0;
+}
+#send_button {
+    margin-left: auto;
 }
 #texts {
     text-align: left;
