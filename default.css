@@ -12,7 +12,8 @@ p.title {
     font-size: 150%;
 }
 hr {
-    color: white;
+    color: #AAA;
+    border: 1px solid #AAA;
 }
 a:link {
     color: #0A0;
