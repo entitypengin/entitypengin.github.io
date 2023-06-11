@@ -113,6 +113,10 @@ input[type="button"]:active {
     color: #AA0;
     border-bottom: 2px solid #AA0;
 }
+.flex-box-between {
+    display: flex;
+    justify-content: space-between;
+}
 #send_button {
     margin-left: auto;
 }
