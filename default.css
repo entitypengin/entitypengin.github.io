@@ -91,6 +91,10 @@ input {
 ::placeholder {
     color: #AAA;
 }
+input[type="button"],input[type="text"],input[type="submit"],input[type="image"],textarea {
+    appearance: none;
+    border-radius: 0;
+}
 input[type="text"] {
     border-bottom: 2px solid #AAA;
 }
