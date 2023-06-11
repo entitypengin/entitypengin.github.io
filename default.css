@@ -122,10 +122,10 @@ input[type="button"]:active {
     display: flex;
     justify-content: space-between;
 }
-#tab_text:checked .areas #area_text {
+#tab_text:checked #area_text {
     display: block;
 }
-#tab_file:checked .areas #area_file {
+#tab_file:checked #area_file {
     display: block;
 }
 #tab_text:checked~.lab_text {
