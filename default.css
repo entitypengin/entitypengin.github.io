@@ -122,24 +122,6 @@ input[type="button"]:active {
     display: flex;
     justify-content: space-between;
 }
-#tab_text:checked~.lab_text {
-    color: #AA0;
-}
-#tab_file:checked~.lab_file {
-    color: #AA0;
-}
-.areas {
-    padding: 0;
-}
-.area {
-    display: none;
-}
-.area.active {
-    display: block;
-}
-input[name="tab"] {
-    display: none;
-}
 #send_button {
     margin-left: auto;
 }
