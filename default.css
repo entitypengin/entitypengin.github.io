@@ -122,11 +122,24 @@ input[type="button"]:active {
     display: flex;
     justify-content: space-between;
 }
+#tab_text:checked~.areas #area_text {
+    display: block;
+}
+#tab_file:checked~.areas #area_file {
+    display: block;
+}
 #tab_text:checked~.lab_text {
     color: #AA0;
 }
 #tab_file:checked~.lab_file {
     color: #AA0;
+}
+.areas {
+    padding: 0;
+    display: none;
+}
+input[name="tab"] {
+    display: none;
 }
 #send_button {
     margin-left: auto;
