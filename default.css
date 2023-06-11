@@ -132,7 +132,10 @@ input[type="button"]:active {
     padding: 0;
     display: none;
 }
-.areas.active {
+.area {
+    display: none;
+}
+.area.active {
     display: block;
 }
 input[name="tab"] {
