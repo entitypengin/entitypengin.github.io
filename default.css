@@ -130,7 +130,6 @@ input[type="button"]:active {
 }
 .areas {
     padding: 0;
-    display: none;
 }
 .area {
     display: none;
