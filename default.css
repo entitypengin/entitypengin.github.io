@@ -16,19 +16,23 @@ hr {
     border: 1px solid #AAA;
 }
 a:link {
-    color: #0A0;
-    text-decoration: underline;
-}
-a:hover {
     color: #0AA;
     text-decoration: underline;
 }
+a:hover {
+    color: #0AF;
+    text-decoration: underline;
+}
 a:visited {
-    color: #A0A;
+    color: #AAA;
+    text-decoration: underline;
+}
+a:hover:visited {
+    color: #AAF;
     text-decoration: underline;
 }
 a:active {
-    color: #AA0;
+    color: white;
     text-decoration: underline;
 }
 a.top:link,a.top:visited {
@@ -51,7 +55,7 @@ body {
     color: white;
     width: 80%;
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 750px;
     word-break: break-all;
 }
 #title {
