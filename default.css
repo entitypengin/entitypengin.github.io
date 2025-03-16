@@ -62,7 +62,9 @@ div {
     border-radius: 20px;
     background: #666;
     box-shadow: inset -20px -20px 20px #777, inset 20px 20px 20px #555;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin: 30px;
 }
 table {
     margin: auto;
